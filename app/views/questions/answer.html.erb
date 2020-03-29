@@ -1,0 +1,22 @@
+
+<div class="container">
+  <h1>Stupid Coaching</h1>
+
+  <div class="answer-box">
+  <blockquote>
+    <p><%= @question %></p>
+    <p><em>-You</em></p>
+  </blockquote>
+  </div>
+
+  <div class="answer-box">
+    <blockquote class="answer">
+      <%= @answer %>
+      <p><em>-Your Coach</em></p>
+    </blockquote>
+  </div>
+
+  <%= link_to "Ask me again!", ask_path %>
+  <!-- # => <a href="/">Home</a>
+   -->
+ </div>
